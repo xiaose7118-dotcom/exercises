@@ -25,7 +25,7 @@ nums 的前 k 个元素应包含 排序后 的唯一数字。下标 k - 1 之后
 """
 def remove_same(nums):
     new_list = []
-    for num in nums:
+    for num in  nums:
         if num not in new_list:
             new_list.append(num)
     return len(new_list),new_list
